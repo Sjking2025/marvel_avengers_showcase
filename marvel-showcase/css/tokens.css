@@ -1,0 +1,53 @@
+:root {
+  --color-void: #000000;
+  --color-dark: #0a0a0a;
+  --color-panel: #111111;
+  --color-surface: #1d1d1d;
+  --color-border: rgba(255,255,255,0.15);
+  --color-text: #f5f5f7;
+  --color-muted: #86868b;
+  
+  --iron-man: #e74c3c;
+  --iron-man-glow: #e74c3c;
+  --iron-man-secondary: #f39c12;
+  
+  --thor: #5dade2;
+  --thor-glow: #85c1e9;
+  --thor-secondary: #f4d03f;
+  
+  --spider-man: #e74c3c;
+  --spider-man-glow: #e74c3c;
+  --spider-man-secondary: #2980b9;
+  
+  --black-panther: #8e44ad;
+  --black-panther-glow: #bb8fce;
+  --black-panther-secondary: #17a589;
+  
+  --captain-america: #5dade2;
+  --captain-america-glow: #5dade2;
+  --captain-america-secondary: #c0392b;
+  
+  --font-display: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'SF Mono', Menlo, monospace;
+  
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+  
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out-circ: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  
+  --z-particles: 1;
+  --z-content: 10;
+  --z-card: 20;
+  --z-nav: 100;
+  --z-cursor: 999;
+}

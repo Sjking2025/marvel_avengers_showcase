@@ -1,0 +1,100 @@
+@media (max-width: 1024px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+    text-align: center;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .hero-visual {
+    order: -1;
+  }
+
+  .hero-description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .abilities-grid {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-chapter {
+    padding: var(--space-4);
+    min-height: 100vh;
+  }
+
+  .hero-name {
+    font-size: clamp(48px, 12vw, 80px);
+  }
+
+  .hero-realname {
+    font-size: 12px;
+  }
+
+  .hero-tagline {
+    font-size: 16px;
+  }
+
+  .hero-description {
+    font-size: 14px;
+  }
+
+  .hero-card-wrapper {
+    width: 240px;
+    height: 320px;
+  }
+
+  .particle-canvas {
+    opacity: 0.3 !important;
+  }
+
+  .custom-cursor {
+    display: none;
+  }
+
+  .scroll-hint {
+    bottom: var(--space-4);
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content {
+    gap: var(--space-6);
+  }
+
+  .hero-name {
+    font-size: clamp(36px, 10vw, 60px);
+  }
+
+  .ability-badge {
+    font-size: 10px;
+    padding: var(--space-1) var(--space-3);
+  }
+
+  .abilities-grid {
+    gap: var(--space-2);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .particle-canvas {
+    display: none;
+  }
+
+  .hero-chapter.active .ability-badge {
+    animation: none;
+    opacity: 1;
+  }
+}
