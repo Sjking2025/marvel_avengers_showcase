@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="assets/heroes/ironman.jpg" width="120" alt="Iron Man"/>
-  <img src="assets/heroes/thor.jpeg" width="120" alt="Thor"/>
-  <img src="assets/heroes/spiderman_3.jpg" width="120" alt="Spider-Man"/>
-  <img src="assets/heroes/plack_panther.jpeg" width="120" alt="Black Panther"/>
-  <img src="assets/heroes/captain_america.jpeg" width="120" alt="Captain America"/>
+  <img src="assets/heroes/ironman.jpg" width="100" height="140" alt="Iron Man" style="object-fit:cover;border-radius:8px;"/>
+  <img src="assets/heroes/thor.jpeg" width="100" height="140" alt="Thor" style="object-fit:cover;border-radius:8px;"/>
+  <img src="assets/heroes/spiderman_3.jpg" width="100" height="140" alt="Spider-Man" style="object-fit:cover;border-radius:8px;"/>
+  <img src="assets/heroes/plack_panther.jpeg" width="100" height="140" alt="Black Panther" style="object-fit:cover;border-radius:8px;"/>
+  <img src="assets/heroes/captain_america.jpeg" width="100" height="140" alt="Captain America" style="object-fit:cover;border-radius:8px;"/>
 </p>
 
 <h1 align="center">⚡ MARVEL AVENGERS SHOWCASE ⚡</h1>
